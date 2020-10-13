@@ -29,7 +29,7 @@ And that's it.
 Here's an image of what this might look like for the phrase `bibbity_bobbity`:
 
 <p>
-    <img  class="center" src="res/huffman_tree.png" width="500" />
+    <img  class="center" src="res/huffman_tree.png" style="width:70%" />
 </p>
 
 This will create a codebook that looks like this:
@@ -93,6 +93,11 @@ Whether you use a stack or straight-up recursion also depends on the language, b
 [import, lang:"asm-x64"](code/asm-x64/huffman.s)
 {% sample lang="scala" %}
 [import, lang:"scala"](code/scala/huffman_encoding.scala)
+{% sample lang="scratch" %}
+The code snippet was taken from this [scratch project](https://scratch.mit.edu/projects/389604255/)
+<p>
+    <img  class="center" src="code/scratch/huffman.svg" width="700" />
+</p>
 {% endmethod %}
 
 <script>
@@ -112,7 +117,7 @@ The text of this chapter was written by [James Schloss](https://github.com/leios
 [<p><img  class="center" src="../cc/CC-BY-SA_icon.svg" /></p>](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ##### Images/Graphics
-- The image "[huffman_tree](res/huffman_tree.png)" was created by [Julian Schacher](https://github.com/julianschacher) and is licenced under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+- The image "[huffman_tree](res/huffman_tree.png)" was created by [Julian Schacher](https://github.com/julianschacher) and is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
 ##### Pull Requests
 
